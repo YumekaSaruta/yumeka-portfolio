@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://ryutaro.ghost.io/",
+    "apiUrl": "https://ryutaro.ghost.io",
     "contentApiKey": "a6c853923c6745b118ea0e37fc"
   },
   "production": {
-    "apiUrl": "https://ryutaro.ghost.io/",
+    "apiUrl": "https://ryutaro.ghost.io",
     "contentApiKey": "a6c853923c6745b118ea0e37fc"
   }
 }
