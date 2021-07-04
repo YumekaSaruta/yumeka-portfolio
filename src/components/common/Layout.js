@@ -5,7 +5,6 @@ import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import { Navigation } from '.'
-import config from '../../utils/siteConfig'
 
 // Styles
 import '../../styles/app.css'
@@ -67,22 +66,12 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                             { isHome ?
                                 <div className="site-banner">
                                     <h1 className="site-banner-title">
-                                      <small className="site-banner-title-name-alphabet">Yumeka Saruta</small>
-                                      <p>サルタ ユメカ</p>
+                                        <small className="site-banner-title-name-alphabet">Yumeka Saruta</small>
+                                        <p>サルタ ユメカ</p>
                                     </h1>
                                     <p className="site-banner-desc"></p>
                                 </div> :
                                 null}
-                            {/* サイト全体のメニューをここで表示している */}
-                            {/* <nav className="site-nav"> */}
-                                {/* <div className="site-nav-left"> */}
-                                    {/* The navigation items as setup in Ghost */}
-                                    {/* <Navigation data={site.navigation} navClass="site-nav-item" /> */}
-                                {/* </div> */}
-                                {/* <div className="site-nav-right"> */}
-                                    {/* <Link className="site-nav-button" to="/about">About</Link> */}
-                                {/* </div> */}
-                            {/* </nav> */}
                         </div>
                     </header>
                     <main className="site-main" id="works">
