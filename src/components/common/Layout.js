@@ -87,7 +87,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                             <hr className="site-foot-line"></hr>
                         </div>
                         <div className="site-foot-contact">
-                            <a href="/contact/">声を掛ける</a>
+                            <a href="/contact2/">声を掛ける</a>
                         </div>
                     </div>
                     {/* The footer at the very bottom of the screen */}
