@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://ryutaro.ghost.io",
+    "contentApiKey": "a6c853923c6745b118ea0e37fc"
   },
   "production": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://ryutaro.ghost.io",
+    "contentApiKey": "a6c853923c6745b118ea0e37fc"
   }
 }

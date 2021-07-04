@@ -183,6 +183,12 @@ module.exports = {
                 addUncaughtPages: true,
             },
         },
+        {
+            resolve: `gatsby-plugin-typography`,
+            options: {
+                pathToConfigModule: `src/utils/typography`,
+            },
+        },
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
