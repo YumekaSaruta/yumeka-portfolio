@@ -556,6 +556,12 @@ h6 {
     object-fit: cover;
 }
 
+@media (max-width: 500px) {
+  .post-feature-image img {
+    height: auto; 
+  }
+}
+
 .content-body h1,
 .content-body h2,
 .content-body h3,
@@ -730,6 +736,12 @@ h6 {
     writing-mode: vertical-rl;
 }
 
+@media (max-width: 500px) {
+  .site-banner-title {
+    font-size: 3rem;
+  }
+}
+
 .site-banner-title p {
   font-family: 'Noto Serif JP', serif;
   font-weight: 700;
@@ -741,6 +753,12 @@ h6 {
   display: block;
   text-align: left;
   color: var(--color-base);
+}
+
+@media (max-width: 500px) {
+  .site-banner-title-name-alphabet {
+    font-size: 1.4rem;
+  }
 }
 
 .site-nav {
@@ -935,8 +953,6 @@ h6 {
   width: 100%;
 }
 
-
-
 .author-header-meta {
     display: flex;
     margin: 1rem 0 0 0;
@@ -983,10 +999,6 @@ h6 {
     .author-header p {
         font-size: 1.7rem;
     }
-    .author-header-image {
-        height: 80px;
-        width: 80px;
-    }
 }
 
 .site-banner-desc {
@@ -994,6 +1006,12 @@ h6 {
   width: 1px;
   height: 120px;
   background-color: var(--color-base);
+}
+
+@media (max-width: 500px) {
+  .site-banner-desc {
+    height: 70px;
+  }
 }
 
 /* Pagination
