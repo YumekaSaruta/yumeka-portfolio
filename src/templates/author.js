@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import { Layout, PostCard, Pagination } from '../components/common'
+import { Layout, Pagination } from '../components/common'
 import { MetaData } from '../components/common/meta'
 
 /**
@@ -13,7 +13,6 @@ import { MetaData } from '../components/common/meta'
 */
 const Author = ({ data, location, pageContext }) => {
     const author = data.ghostAuthor
-    const posts = data.allGhostPost.edges
 
     return (
         <>
@@ -55,24 +54,9 @@ const Author = ({ data, location, pageContext }) => {
                                 <div>
                                     <p>ぜひ、お気軽にお声かけ下さい。</p>
                                 </div>
-                                {/* MEMO: SNSリンクをここで修正する */}
-                                {/* <div className="author-header-meta">
-                                    {author.website && <a className="author-header-item" href={author.website} target="_blank" rel="noopener noreferrer">Website</a>}
-                                    {twitterUrl && <a className="author-header-item" href={twitterUrl} target="_blank" rel="noopener noreferrer">Twitter</a>}
-                                    {facebookUrl && <a className="author-header-item" href={facebookUrl} target="_blank" rel="noopener noreferrer">Facebook</a>}
-                                </div> */}
                             </div> 
                         </div>
-                        {/* <div className="author-header-image">
-                            {author.profile_image && <img src={author.profile_image} alt={author.name} />}
-                        </div> */}
                     </header>
-                    {/* <section className="post-feed">
-                        {posts.map(({ node }) => (
-                            // The tag below includes the markup for each post - components/common/PostCard.js
-                            <PostCard key={node.id} post={node} />
-                        ))}
-                    </section> */}
                     <Pagination pageContext={pageContext} />
                 </div>
             </Layout>
