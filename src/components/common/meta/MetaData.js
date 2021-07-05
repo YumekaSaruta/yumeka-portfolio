@@ -75,6 +75,7 @@ const MetaData = ({
     }
 }
 
+
 MetaData.defaultProps = {
     data: {},
 }
