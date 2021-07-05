@@ -23,18 +23,14 @@ const Author = ({ data, location, pageContext }) => {
             />
             <Layout>
                 <div className="author-header-image">
-                    {/* <img src="../images/author-top.jpg" alt={author.name} /> */}
-                    {/* {author.profile_image && <img src="../images/ghost-icon.png" alt={author.name} />} */}
                     {author.profile_image && <img src={author.profile_image} alt={author.name} />}
                 </div>
                 <div className="container">
                     <header className="author-header">
                         <div className="author-header-content">
-                            {/* <h1>{author.name}</h1> */}
                             <p className="author-name-kana">サルタ ユメカ</p>
                             <h1 className="author-name">YUMEKA SARUTA</h1>
                             <div className="author-jobs"><span>｜</span>WEB DESIGNER</div>
-                            {/* {author.bio && <p>{author.bio}</p>} */}
                             <div className="author-details">
                                 <div>
                                     <p>1994年、静岡県浜松市生まれ。</p>
