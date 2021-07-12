@@ -53,8 +53,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                             { isHome ?
                                 <div className="site-banner">
                                     <h1 className="site-banner-title">
-                                        <small className="site-banner-title-name-alphabet">Yumeka Saruta</small>
-                                        <p>サルタ ユメカ</p>
+                                        <small className="site-banner-title-name-alphabet">PORTFOLIO</small>
+                                        <p>ポートフォリオ</p>
                                     </h1>
                                     <p className="site-banner-desc"></p>
                                 </div> :
@@ -79,9 +79,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     {/* The footer at the very bottom of the screen */}
                     <footer className="site-foot">
                         <div className="site-foot-nav container">
-                            <div className="site-foot-nav-left">
+                            {/* <div className="site-foot-nav-left">
                                 <Link to="/">Yumeka Saruta</Link> © 2021
-                            </div>
+                            </div> */}
                             <div className="site-foot-nav-right">
                                 <Navigation data={site.navigation} navClass="site-foot-nav-item" />
                             </div>

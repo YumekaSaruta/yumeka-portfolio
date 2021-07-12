@@ -28,8 +28,8 @@ const Author = ({ data, location, pageContext }) => {
                 <div className="container">
                     <header className="author-header">
                         <div className="author-header-content">
-                            <p className="author-name-kana">サルタ ユメカ</p>
-                            <h1 className="author-name">YUMEKA SARUTA</h1>
+                            {/* <p className="author-name-kana">ポートフォリオサルタ ユメカ</p>
+                            <h1 className="author-name">PROTYUMEKA SARUTA</h1> */}
                             <div className="author-jobs"><span>｜</span>WEB DESIGNER</div>
                             <div className="author-details">
                                 <div>
@@ -47,7 +47,7 @@ const Author = ({ data, location, pageContext }) => {
                                 <div>
                                     <p>ぜひ、お気軽にお声かけ下さい。</p>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                     </header>
                     <Pagination pageContext={pageContext} />
